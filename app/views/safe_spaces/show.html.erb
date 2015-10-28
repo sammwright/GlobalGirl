@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Contact name:</strong>
+  <%= @safe_space.contact_name %>
+</p>
+
+<p>
+  <strong>Contact phone:</strong>
+  <%= @safe_space.contact_phone %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @safe_space.address %>
+</p>
+
+<p>
+  <strong>Suburb:</strong>
+  <%= @safe_space.suburb %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @safe_space.state %>
+</p>
+
+<p>
+  <strong>Postcode:</strong>
+  <%= @safe_space.postcode %>
+</p>
+
+<p>
+  <strong>Country:</strong>
+  <%= @safe_space.country %>
+</p>
+
+<p>
+  <strong>Latitude:</strong>
+  <%= @safe_space.latitude %>
+</p>
+
+<p>
+  <strong>Longitude:</strong>
+  <%= @safe_space.longitude %>
+</p>
+
+<p>
+  <strong>Contact email:</strong>
+  <%= @safe_space.contact_email %>
+</p>
+
+<%= link_to 'Edit', edit_safe_space_path(@safe_space) %> |
+<%= link_to 'Back', safe_spaces_path %>

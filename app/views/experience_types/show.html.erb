@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @experience_type.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @experience_type.description %>
+</p>
+
+<%= link_to 'Edit', edit_experience_type_path(@experience_type) %> |
+<%= link_to 'Back', experience_types_path %>
